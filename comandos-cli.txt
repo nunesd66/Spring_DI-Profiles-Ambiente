@@ -1,0 +1,25 @@
+COMANDOS DO TERMINAL
+
+$ ./mvnw package
+- empacota o projeto
+
+$ java -jar arquivo.jar
+- roda o projeto java
+
+$ ./mvnw clean
+- limpa o projeto gerado 
+
+$ ./mvnw dependency:tree
+- mostra a lista de dependências 
+
+$ ./mvnw dependency:tree
+- mostra as dependencias resolvidas
+
+$ ./mvnw help:effective-pom
+- mostra a lista de dependências declaradas
+
+$ java -jar projeto.jar -Dspring.profiles.active=prod
+- passa o profile de anotação por linha de comando
+
+$ java -jar projeto.jar --propriedade1=valor1 --propriedade2=valor2 
+- atribui um valor do application.properties ao projeto
